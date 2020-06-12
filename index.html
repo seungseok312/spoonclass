@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<title>Hello, world!</title>
+	<title>수저관상</title>
 	<link rel="stylesheet" href="style.css">
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ed58f3d20112b20"></script>
@@ -110,7 +110,7 @@
 	// More API functions here:
 	// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 	// the link to your model provided by Teachable Machine export panel
-	const URL = "https://teachablemachine.withgoogle.com/models/sLs5dmhyA/";
+	const URL = "https://teachablemachine.withgoogle.com/models/Xe6RdilOs/";
 	let model, webcam, labelContainer, maxPredictions;
 	// Load the image model and setup the webcam
 	async function init() {
@@ -142,12 +142,17 @@
 				break;
 			case "silver":
 				resultTitle = "은수저"
-				resultExplain = "평범 또는 그 이상으로 부를 축적하십니다. 욕심을 줄이시고 현재에 감사합시다!"
+				resultExplain = "평범 이상으로 부를 축적하십니다. 욕심을 줄이시고 현재에 감사합시다!"
+				resultCeleb = ""
+				break;
+			case "bronze":
+				resultTitle = "동수저"
+				resultExplain = "평범한 삶, 평범한 일상, 평범한 오늘."
 				resultCeleb = ""
 				break;
 			case "dirt":
-				resultTitle = "동수저"
-				resultExplain = "노력은 배신하지 않는다지만, 음...Error"
+				resultTitle = "흙수저"
+				resultExplain = "노력은 배신하지 않는다지만..."
 				resultCeleb = ""
 				break;
 			default:
@@ -176,8 +181,11 @@
 				case "silver":
 					labelTitle = "은수저"
 					break;
-				case "dirt":
+				case "bronze":
 					labelTitle = "동수저"
+					break;
+				case "dirt":
+					labelTitle = "흙수저"
 					break;
 				default:
 					labelTitle = "알수없음"
@@ -188,6 +196,26 @@
 		}
 	}
 </script>
+	<br>
+	<div class="ad-banner">
+		<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+	new PartnersCoupang.G({ id:256510 });
+</script>
+		
+		<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+	new PartnersCoupang.G({ id:256512 });
+</script>
+	</div>
+
+	<div class="ad-banner">
+		<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-vf0wo5vv3kmu" 
+data-ad-width="320" 
+data-ad-height="100"></ins>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+	</div>
+<br>
 
 <!--Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 

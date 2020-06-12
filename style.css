@@ -3,6 +3,14 @@ body {
 	background-color: #afeeee;
 }
 
+.ad-banner{
+	width: 320px;
+	margin: 0 auto;
+}
+
+
+
+
 .addthis_inline_share_toolbox_nw9q {
 	text-align: center;
 	margin-top: 1px;
@@ -196,6 +204,27 @@ body {
 	border-radius: 10px;
 	background-color: #778899;
 }
+
+.bronze-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: #F5DEB3;
+}
+.bronze-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: #F4A460;
+}
+
+
+
 .dirt-box {
 	position: absolute;
 	top: 0;
@@ -211,7 +240,7 @@ body {
 	left: 0;
 	height: 2rem;
 	border-radius: 10px;
-	background-color: #a0522d;
+	background-color: #800000;
 }
 
 .percent-text {
